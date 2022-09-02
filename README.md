@@ -5,7 +5,12 @@ C++ project template that uses CMake and GoogleTest, and has dynamic features su
   
 Prequisities:
   * CMake
-  * CMake Generator (make, ninja etc.)
+  * Ninja
+  * Clang / LLVM (or GNU GCC / G++)
   
 To build project:
-`{insert_build_command_here}`
+ 1. `cmake -G Ninja -B build/`
+ 2. `cmake --build build`
+ 
+To run the project after building:
+ * `./{project_name}`
