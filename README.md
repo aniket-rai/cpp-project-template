@@ -13,4 +13,4 @@ To build project:
  2. `cmake --build build`
  
 To run the project after building:
- * `./{project_name}`
+ * `./build/{project_name}` or `.\build\{project_name}.exe`
